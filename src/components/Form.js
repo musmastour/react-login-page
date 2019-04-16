@@ -12,9 +12,10 @@ class Form extends React.Component {
                     <div className="form-password">
                         <input type="password" name="password" placeholder="Entrez votre mot de passe"/>
                     </div>
-                    <div className="form-button">
-                        <button variant="primary" size="lg" >Connexion</button>
-                    </div>
+                    
+                        <button className="forgot-password" variant="primary" size="lg" >Mot de passe oublié ?</button>
+                        <br/>
+                        <button className="button-connexion" variant="primary" size="lg" >Connexion</button>
                 </form>
             </div>
         );

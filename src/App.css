@@ -55,9 +55,10 @@
 .form {
   padding-top: 150px;
   width: 100%;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 .form input {
@@ -75,7 +76,7 @@
   padding: 20px;  
 }
 
-.form button {
+.button-connexion-container {
   background: linear-gradient(to right, #4bba93, #37a99b);
   color: white;
   border: none;
@@ -86,3 +87,28 @@
   padding: 10px;
   margin-top: 20px;
 }
+
+.forgot-password {
+  background: none;
+  border: 1px solid #37a99b;
+  width: 40%;
+  height: 20%;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  color: #37a99b;
+}
+
+.button-connexion {
+  background: linear-gradient(to right, #4bba93, #37a99b);
+  color: white;
+  border: none;
+  width: 40%;
+  height: 20%;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
